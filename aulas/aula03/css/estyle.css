@@ -1,0 +1,38 @@
+.container {
+    border: 2px dotted blue;
+    padding:20px;
+    background-color:#666;
+    margin-bottom:300px;
+}
+
+.row {
+    border:5px solid purple;
+    height:100px;
+    padding:10px;
+    margin:0;
+}
+
+.col,.col-4,.col-2 {
+    border:2px dashed red;
+    height:100%;
+    margin:0;
+}
+.vertical {
+    height:250px;
+    border-color:coral;
+}
+.vertical .row {
+    height:100%;
+}
+
+.col-6 {
+    border:2px dashed red;
+    height:50px;
+    margin:0px;
+}
+
+.col-3 {
+    border:2px dashed red;
+    height:50px;
+    margin:0;
+}

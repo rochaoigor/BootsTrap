@@ -1,0 +1,21 @@
+#gutter .row {
+    height:200px;
+
+}
+
+#gutter .col {
+    margin:auto;
+    border:2px solid red;
+    padding:10px;
+}
+
+
+.row p {
+    border:2px solid green;
+   
+}
+
+.container {
+    background-color:#666;
+}
+

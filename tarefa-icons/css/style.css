@@ -1,0 +1,26 @@
+.bi-person-square{
+    font-size:50px;
+    color:red;
+    padding:10px;
+}
+
+.bi-plus-circle-fill {
+    font-size:50px;
+    color:blue;
+    padding:10px
+}
+
+.bi-phone {
+    font-size:50px;
+    color:green;
+    padding:10px
+}
+
+.col-12 {
+    align-items:center;
+    justify-items:center;
+}
+
+.span {
+    padding:50px;
+}
