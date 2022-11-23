@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+    <title>Estilizando Layout com formulário</title>
+</head>
+<body>
+    <section class="container col-11 col-md-9" id="form-container">
+        <div class="row align-items-center gx-5">
+            <div class="col-md-6 order-md-2">
+                <h2>Faça o Login para continuar</h2>
+                <form>
+                    <div class="form-floating mb-3">
+                        <input type="email" name="email" id="email" class="form-control" placeholder="Digite seu e-mail">
+                        <label for="email" class="form-label">Digite seu e-mail</label>
+                    </div>
+                    <div class="form-floating mb-3">
+                        <input type="password" name="password" id="password" class="form-control" placeholder="Digite a sua senha">
+                        <label for="email" class="form-label">Digite a sua senha</label>
+                 
+                    </div>
+                <input type="submit" value="Entrar" class="btn btn-primary">
+            </form>
+            </div>
+            <div class="col-md-6 order-md-1">
+                <div class="col-12">
+                    <img src="img/undraw_sign_in_re_o58h.svg" alt="entrar no sistema" class="img-fluid">
+                </div>
+                <div class="col-12" id="link-container">
+                <a href="register.html">Ainda não tem um cadastro?</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+</body>
+</html>

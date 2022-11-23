@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <title>Estilizando Layout com formulário</title>
+</head>
+<body>
+    <div class="containe">
+        <div class="row justify-content-center m-4">
+            <div class="col-6">
+                <h1>Cadastro de produto:</h1>
+                <form>
+                    <div class="mb-4">
+                        <label for="title" class="form-label mb-2">Título:</label>
+                        <input type="text" class="form-control" name="title" placeholder="Digite o título do produto">
+                    </div>
+                    <div class="mb-4">
+                        <label for="description" class="mb-2 form-label">Descrição</label>
+                        <textarea name="description" rows="3" placeholder="Descreva os produtos" class="form-control"></textarea>
+                    </div>
+                    <div class="mb-4">
+                        <label for="Category" class="form-label mb-2">Selecione a categoria:</label>
+                        <select name="category" class="form-select">
+                            <option value="Eletrodomesticos">Eletrodomesticos</option>
+                            <option value="Limpeza">Limpeza</option>
+                            <option value="Alimentos">Alimentos</option>
+                            <option value="Livros">Livros</option>
+                        </select>
+                    </div>
+                    <div class="mb-4">
+                        <input type="checkbox" name="stock" value="" class="form-check-input">
+                        <label for="stock" class="form-label">Está em estoque?</label>
+                    </div>
+                    <div class="mb-4">
+                        <button type="submit" class="btn btn-primary">Cadastrar</button>
+                    </div>
+                </form>
+       
+            </form>
+            </div>
+        </div>
+       
+    </div>
+</body>
+</html>
