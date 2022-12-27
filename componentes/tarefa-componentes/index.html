@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="style.css">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"defer></script>
+
+    <title>Projeto - HairCare</title>
+   
+
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-danger mb-4">
+        <div class="container-fluid">
+            <a href="" class="navbar-brand">Meu projeto</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navBarNav" aria-controls="navBarNav" aria-expanded="false" aria-label="Toggle Navigation"><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="navBarNav">
+                <ul class="navbar-nav">
+                    <li class="navbar-item">
+                        <a href="#" class="nav-link active" aria-current="page">Home</a>
+                    </li>
+                    <li class="navbar-item">
+                        <a href="#produtos" class="nav-link">Produtos</a>
+                    </li>
+                    <li class="navbar-item">
+                        <a href="#faleconosco" class="nav-link">Fale conosco</a>
+                    </li>
+                  
+                </ul>
+            </div>
+            <form  class="d-flex">
+                <input type="search" class="form-control me-2" placeholder="Digite algo..." aria-label="Search">
+                <button class="btn btn-outline-light" type="submit">Pesquisar</button>
+            </form>
+        </div>
+       </nav>
+    <section class="container">  
+            <div id="carouselexample" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" class="active" data-bs-target="#carouselexample" data-bs-slide-to="0" aria-current="true" aria-label="slide1">
+                    </button>
+                    <button type="button"  data-bs-target="#carouselexample" data-bs-slide-to="1" aria-label="slide2">
+                    </button>
+                    <button type="button"  data-bs-target="#carouselexample" data-bs-slide-to="2" aria-label="slide3">
+                    </button>
+                  
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="img/Haskell-Liso-com-Força-Kit-Disciplinate-4-Produtos-600x600.jpg"  class="d-block w-100">
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item">
+                            <img src="img/Haskell-Cavalo-Forte-Kit-Salão-3-Produtos-600x600.jpg" class="d-block w-100">
+                        </div>
+                            <div class="carousel-item">
+                                <img src="img/Murumuro-6-produtos.jpg"  class="d-block w-100">
+                            </div>
+                        </div>
+        
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselexample" data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Previous</span>
+                            </button>
+        
+                            <button class="carousel-control-next" type="button" data-bs-target="#carouselexample" data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Next</span>
+                            </button>
+    </section>
+    <section class="container col-12">
+        <h2 class="h2 mb-4" id="produtos">Produtos</h2>
+       <div class="row g-4">
+           <div class="col-3">
+            <div class="card" style="width:200px;">
+                <img src="img/desmaiacabelo.jpg" alt="Imagem do Produto Desmaia Cabelo - Kit Capital 3 Produtos" class="card-img-top">
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">Desmaia Cabelo</h5>
+                <h6 class="card-subtitle">Kit Capilar 3 Produtos</h6>
+                <div class="card-text">
+                   <p class="h5">R$:00,00</p> 
+                </div>
+                <a href="#" class="btn btn-primary">Comprar</a>
+           </div>
+               </div>
+               <div class="col-3">
+            <div class="card" style="width:200px;">
+                <img src="img/kitprodutos.jpg" alt="Imagem do Produto Cabelos Cacheados - DYUSAR PROFISSIONAL" class="card-img-top">
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">CABELOS CACHEADOS </h5>
+                <h6 class="card-subtitle">DYUSAR PROFISSIONAL</h6>
+                <div class="card-text">
+                    <p class="h5">R$:00,00</p>
+                </div>
+                <a href="#" class="btn btn-primary">Comprar</a>
+           </div>
+               </div>
+               <div class="col-3">
+            <div class="card" style="width:200px;">
+                <img src="img/sossegacabelo.jpg" alt="Imagem do Produto Sossega Cabelo - Shampoo e Mascara" class="card-img-top">
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">Sossega Cabelo</h5>
+                <h6 class="card-subtitle">Shampoo & Máscara</h6>
+                <div class="card-text">
+                   <p class="h5">R$:00,00</p>
+                </div>
+                <a href="#" class="btn btn-primary">Comprar</a>
+           </div>
+               </div>
+               <div class="col-3">
+            <div class="card" style="width:200px;">
+                <img src="img/cadiveu.jpg" alt="Imagem do Produto Cadiveu Hair Remedy" class="card-img-top">
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">Cadiveu Hair Remedy</h5>
+                <h6 class="card-subtitle">Profissional 3 Produtos</h6>
+                <div class="card-text">
+                    <p class="h5">R$:00,00</p>
+                </div>
+                <a href="#" class="btn btn-primary">Comprar</a>
+           </div>
+               </div>
+               <div class="col-3">
+            <div class="card" style="width:200px;">
+                <img src="img/repairsystem.jpg" alt="Imagem do Produto - Repair System - Kit com 3 Itens" class="card-img-top">
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">Repair System</h5>
+                <h6 class="card-subtitle">Kit 3 Itens</h6>
+                <div class="card-text">
+                    <p class="h5">R$:00,00</p>
+                </div>
+                <a href="#" class="btn btn-primary">Comprar</a>
+           </div>
+               </div>
+               <div class="col-3">
+            <div class="card" style="width:200px;">
+                <img src="img/babydove.jpg" alt="Imagem do Produto - Baby Dove - Creme Para Pentear" class="card-img-top">
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">Baby Dove</h5>
+                <h6 class="card-subtitle">Creme para pentear</h6>
+                <div class="card-text">
+                    <p class="h5">R$:00,00</p>
+                </div>
+                <a href="#" class="btn btn-primary">Comprar</a>
+           </div>
+               </div>
+               <div class="col-3">
+            <div class="card" style="width:200px;">
+                <img src="img/condicionador.jpg" alt="Imagem Produto Avon Naturals Cabelo - Condicionador" class="card-img-top">
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">Avon Naturals Cabelo</h5>
+                <h6 class="card-subtitle">Condicionador</h6>
+                <div class="card-text">
+                    <p class="h5">R$:00,00</p>
+                </div>
+                <a href="#" class="btn btn-primary">Comprar</a>
+           </div>
+               </div>
+               <div class="col-3">
+            <div class="card" style="width:200px;">
+                <img src="img/oils.jpg" alt="Imagem do Produto - MAB - OILS RECOVERY 1L" class="card-img-top">
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">MAB</h5>
+                <h6 class="card-subtitle">Oils Recovery 1L</h6>
+                <div class="card-text">
+                   <p class="h5">R$:00,00</p>
+                </div>
+                <a href="#" class="btn btn-primary">Comprar</a>
+           </div>
+               </div>
+       </div>
+</section>
+<footer class="bg-danger">
+    <h4 class="h4" id="faleconosco">Fale conosco</h4>
+    <div class="social-media">
+        <i class="bi bi-instagram"><a href="#"></a></i>
+        <i class="bi-facebook"><a href="#"></a></i>
+        <i class="bi-twitter"><a href="#"></a></i>
+    </div>
+</footer>
+</body>
+</html>
