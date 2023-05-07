@@ -1,0 +1,9 @@
+.box-sticky, .box-fixed {
+    width:100px;
+    height:100px;
+    background-color:aquamarine;
+}
+
+.box-fixed {
+    background-color:brown;
+}
